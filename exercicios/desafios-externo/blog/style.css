@@ -1,0 +1,53 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@200&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Cabeçalho */
+
+header {
+    background-image: linear-gradient(to right, #564ce8, #3fa0dc);
+    height: 200px;
+}
+
+header > nav {
+    text-align: center;
+}
+
+header > nav > a {
+    font-family: 'Lexend Deca', sans-serif;
+    text-decoration: none;
+}
+
+input {
+    background-color: rgba(238, 238, 238, 0.158);
+    width: 900px;
+    height: 35px;
+    padding: 0px;
+}
+
+body {
+    background-color: #f3f5f7;
+}
+
+main {
+    text-align: center;
+}
+
+.data {
+    text-align: left;
+}
+
+.texto {
+    text-align: justify;
+}
+
+.primeiro {
+    background-color: ffffff;
+    background-size: ;
+}

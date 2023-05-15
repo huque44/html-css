@@ -1,0 +1,48 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+     /* configurações globais das CSS */
+     * { 
+        font-family: 'Roboto', sans-serif;
+    }
+    /* Gradiente - left, right, top ou bottom */
+    body {
+        background-image: linear-gradient(to top, #6622CC, #8BBEB2);
+        background-attachment: fixed;
+        text-align: center;
+        font-family: 'Roboto', sans-serif;
+        color: #000000;
+    }
+h1 {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(136, 109, 93, 0.616);
+    width: 350px;
+    padding: 10px;
+    margin: auto;
+    font-size: 2.5em;
+}
+
+h2{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(136, 109, 93, 0.616);
+    width: 200px;
+    padding: 10px;
+    margin: auto;
+    font-size: 1.5em;
+}
+/* 
+letras sempre usar em
+
+Medidas Absolutas 
+cm, mm, in, px, pt pc
+
+Medidas Relativas 
+em, ex, rem, vw, vh, %
+16px geralmente = 1em
+
+weight = peso
+width = largura
+height = altura
+*/

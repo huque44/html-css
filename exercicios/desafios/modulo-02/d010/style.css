@@ -1,0 +1,29 @@
+@charset "pt-br";
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@font-face {
+    font-family: 'idroid';
+    src: url(fontes/idroid.otf);
+}
+
+* {
+    margin:0;
+    padding:0;
+    border:0;
+}
+
+header {
+    background-image: linear-gradient(to bottom, #3ad17e, #154b2d);
+    color: white;
+    height: 150px;
+}
+
+header > h1, p {
+    display: block;
+    text-align: center;
+}
+
+nav > a {
+
+    color: white;
+    text-decoration: none;
+}
