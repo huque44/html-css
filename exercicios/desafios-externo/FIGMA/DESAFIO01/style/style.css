@@ -1,0 +1,55 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100&family=Lexend+Deca:wght@200&display=swap');
+
+* {
+    margin: 0px;
+}
+
+:root {
+    --font1: 'Inter', sans-serif;
+    --font2: 'Lexend Deca', sans-serif;
+
+    --color1: #564ee8;
+    --color2: #3fa0dc;
+    --color3: #f3f5f7;
+}
+
+header {
+    height: 150px;
+    background-image: linear-gradient(to right, var(--color1), var(--color2));
+    font-family: var(--font2);
+    color: white;
+    font-weight: bolder;
+    background-size: 100% 100%;
+    position: relative;
+}
+
+body {
+    background-color: var(--color3);
+}
+
+.centro {
+    width: 400px;
+    height: 100px;
+    position: absolute;
+    border: 1px solid black;
+    left: 25%;
+    top: 15%
+}
+
+.menu {
+    display: inline; 
+}
+
+.menu1 {
+    position: absolute;
+    display: inline;
+    left: 367px;   
+}
+
+.pesquisa {
+    position: absolute;
+    display: inline;
+    left: 130px;
+    bottom: 10px;
+}
