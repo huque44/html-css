@@ -3,6 +3,7 @@
 
 * {
     margin: 0px;
+    padding: 0px;
 }
 
 :root {
@@ -20,36 +21,65 @@ header {
     font-family: var(--font2);
     color: white;
     font-weight: bolder;
-    background-size: 100% 100%;
-    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.centro {
+    width: 400px;
+    height: 100px;
+    border: 1px solid black;
+}
+
+.menu {
+    display: inline-flex;
+    border: 1px solid black;
+}
+
+header > .menu1 {
+    display: inline-flex;
 }
 
 body {
     background-color: var(--color3);
 }
 
-.centro {
-    width: 400px;
-    height: 100px;
-    position: absolute;
-    border: 1px solid black;
-    left: 25%;
-    top: 15%
+main {
+    max-width: 800px;
+    display: inline-block;
+    align-items: center;
+    margin: 10px;
 }
 
-.menu {
-    display: inline; 
+article {
+    border-radius: 10px;
+    box-shadow: 0px 7px 9px rgba(0, 0, 0, 0.192);
 }
 
-.menu1 {
-    position: absolute;
-    display: inline;
-    left: 367px;   
+article > h1, p {
+    margin: 10px;
 }
 
-.pesquisa {
-    position: absolute;
-    display: inline;
-    left: 130px;
-    bottom: 10px;
+.art1 {
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+}
+
+.art2 {
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+}
+
+.art3 {
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+}
+
+.art4 {
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
 }
